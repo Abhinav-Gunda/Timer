@@ -1,0 +1,16 @@
+.main{
+    margin-top: 30px;
+    font-family: 'Constantia';
+    text-align: center;
+    
+}
+
+#count{
+    margin-top: 120px;
+    border-radius: 1000px;
+    width: 800px;
+    height: 300px;
+    font-size:100;
+    border: 0px;
+    text-align: center;
+}

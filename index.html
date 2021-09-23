@@ -1,0 +1,60 @@
+<html>
+
+    <head>
+        <title>Timer</title>
+        <link rel="stylesheet" href="timer_style.css">
+    </head>
+
+    <body class="main">
+
+        Click Here -> <button onclick="Start()">Start</button><br>
+        <input type="text" id="count">
+        
+        <script>
+
+            function Start() {
+                var i = document.getElementById("count");
+                setTimeout(function () {
+                    i.value = "10"
+                    document.body.style.backgroundImage = "linear-gradient(white,white)";
+                }, 2000)
+                setTimeout(function () {
+                    i.value = "9"
+                }, 3000)
+                setTimeout(function () {
+                    i.value = "8"
+                }, 4000)
+                setTimeout(function () {
+                    i.value = "7"
+                }, 5000)
+                setTimeout(function () {
+                    i.value = "6"
+                }, 6000)
+                setTimeout(function () {
+                    i.value = "5"
+                }, 7000)
+                setTimeout(function () {
+                    i.value = "4"
+                }, 8000)
+                setTimeout(function () {
+                    i.value = "3"
+                }, 9000)
+                setTimeout(function () {
+                    i.value = "2"
+                }, 10000)
+                setTimeout(function () {
+                    i.value = "1"
+                }, 11000)
+                setTimeout(function () {
+                    i.value = "0"
+                }, 12000)
+                setTimeout(function () {
+                    i.value = "Happy Birthday..!"
+                    document.body.style.backgroundImage = "linear-gradient(red,yellow ,rgb(22, 130, 145))";
+                }, 13000)
+            }
+        </script>
+
+    </body>
+
+</html>
